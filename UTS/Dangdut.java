@@ -9,20 +9,25 @@ package UTS;
  * @author dx
  */
 public class Dangdut {
+    
     String penyanyi = "Ayu Ting Ting";
-    String lagu = "alamat Palsu";
+    String lagu = "Alamat Palsu";
 
-             
-        void singer (String penyanyi){
-        this.penyanyi = penyanyi;
-        }
-        void song(String lagu){
-        this.lagu =lagu;}
-        
-        void cetakLabel(){
-        
-            System.out.println(this.penyanyi+"<=>"+this.lagu);}
+    public Dangdut() {
     }
+    
+    void singer(String penyanyi){
+        this.penyanyi = penyanyi;
+    }
+    
+    void song(String lagu){
+        this.lagu = lagu;
+    }
+    
+    void cetakLabel(){
+        System.out.println(this.penyanyi+" <=> "+this.lagu);
+    }
+}
 
  
 
